@@ -1,0 +1,30 @@
+{
+  "name": "LiveScriptWatch",
+  "version": "0.0.1",
+  "description": "LiveScriptWatch",
+  "author": "joykrishnamondal <joykrishnamondal@gmail.com>",
+  "main": "Compile.js",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/JoyKrishnaMondal/LiveScriptWatch.git"
+},
+  "keywords": [
+  "livescript",
+  "DevOps",
+  "Less Compiler",
+  "Simple",
+  "tiny",
+  "json.ls"
+],
+  "dependencies": {
+    "LiveScript":"*",
+    "GeneralDev":"https://github.com/JoyKrishnaMondal/GeneralDev.git",
+    "prelude-ls":"*"
+    
+  },
+  "devDependencies": {
+    "simple-livescript-watch": "*"
+  },
+  "license": "MIT License"
+}
+  

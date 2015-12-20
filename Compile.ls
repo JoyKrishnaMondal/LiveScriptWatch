@@ -92,6 +92,6 @@ WithDir = (Init = true,watch = true,clean = false,DirToSave = process.cwd!,DirTo
 
 	return
 
-WithDir!
 
-# module.exports = WithDir
+
+module.exports = WithDir

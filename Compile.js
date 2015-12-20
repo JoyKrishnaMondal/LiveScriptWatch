@@ -83,5 +83,5 @@
     AutoBuild = SetConfig(Config);
     AutoBuild(Init, watch, clean);
   };
-  WithDir();
+  module.exports = WithDir;
 }).call(this);

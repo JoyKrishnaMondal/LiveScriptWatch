@@ -93,5 +93,4 @@ WithDir = (Init = true,watch = true,clean = false,DirToSave = process.cwd!,DirTo
 	return
 
 
-
 module.exports = WithDir

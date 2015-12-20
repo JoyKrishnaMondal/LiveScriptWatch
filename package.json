@@ -17,7 +17,7 @@
   "json.ls"
 ],
   "dependencies": {
-    "LiveScript":"*",
+    "livescript":"*",
     "GeneralDev":"https://github.com/JoyKrishnaMondal/GeneralDev.git",
     "prelude-ls":"*"
     

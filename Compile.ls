@@ -19,6 +19,7 @@ log = (string,replace) ->
 	if not replace
 		# Normal Log
 		console.log string
+
 		return
 
 	process.stdout.clearLine!
@@ -46,9 +47,9 @@ Config =
 			ToCompile = ReadName |> fs.readFileSync |> (.toString!) 
 
 			try
-
-				Compiled = lsc.compile ToCompile,(json:true) 
-
+				
+				Compiled = lsc.compile ToCompile,(json:true)
+		
 				fs.writeFileSync (WriteName ""),Compiled
 
 				console.log LightGreen + FileName + ".ls" + Green +  " --> " + LightGreen + FileName + White
@@ -91,4 +92,6 @@ WithDir = (Init = true,watch = true,clean = false,DirToSave = process.cwd!,DirTo
 
 	return
 
-module.exports = WithDir
+WithDir!
+
+# module.exports = WithDir

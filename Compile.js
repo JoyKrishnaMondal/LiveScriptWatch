@@ -60,7 +60,10 @@
         fs.readFileSync(
         ReadName));
         try {
-          Compiled = lsc.compile(ToCompile);
+          Compiled = lsc.compile(ToCompile, {
+            bare: true,
+            header: false
+          });
           fs.writeFileSync(WriteName(".js"), Compiled);
           return console.log(LightGreen + FileName + ".ls" + Green + " --> " + LightGreen + FileName + ".js" + White);
         } catch (e$) {
